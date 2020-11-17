@@ -1,4 +1,4 @@
-# target-visibility
+# visibility-service-getVisibilityIntervals
 
 This is a simple implementation of the getVisibilityIntervals(ra, dec, start, end) function utilized in the visibility-service project https://github.com/emiliosalazardonate/visibility-service by Emilio Salazar to calculate Object Visibility in compliance with the Object Visibility Simple Access Protocol (ObjVisSAP).
 
