@@ -10,8 +10,11 @@ The PyEphem astronomy library https://rhodesmill.org/pyephem/
 Usage:
 
 Modify views.py from the visibility-service project 
+
 a) To import this function: from visibility.viscalc import VisCalc
+
 b) Call the function within getVisibilityIntervals():
+
 class VisibilityCalculator:
     @staticmethod
     def getVisibilityIntervals(ra, dec, start, end):
