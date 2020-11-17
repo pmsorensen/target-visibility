@@ -2,7 +2,7 @@
 
 This is a simple implementation of the getVisibilityIntervals(ra, dec, start, end) function utilized in the visibility-service project https://github.com/emiliosalazardonate/visibility-service by Emilio Salazar to calculate Object Visibility in compliance with the Object Visibility Simple Access Protocol (ObjVisSAP).
 
-This implementation is aimed at ground-based facilities and should be valid 
+This implementation should be valid for any ground-based facility. The tuneable parameters (latitude,longitude, object elevation limit, twillight limit) are easily recognized within the code.
 
 Requirements: 
 The PyEphem astronomy library https://rhodesmill.org/pyephem/
